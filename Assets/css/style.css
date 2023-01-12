@@ -3,76 +3,44 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-/*
-font-family: 'Arsenal', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Jost', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Nunito Sans', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Source Serif Pro', serif;
-/* common css end */
-/* common-css start  */
-
-.nav-link {
-    color: #0000ff;
-    font-size: 15px;
-    font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    text-align: right;
 }
-.navbar-nav .nav-link.active{
-    color: gray;
+/* common css end */
+body{
+    background: #080808;
+    color: #fff;
 }
-.nav-link:focus, .nav-link:hover{
-    color: #FFF;
-    background: #0000ff;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.navbar-brand{
-    font-size: 10px;
+nav h2{
+    font-size: 14px;
 }
-main {
-    background: #a2a2b9;
-    padding: 40px 0px;
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px;
 }
-
-.main-content h2{
-    color:#fff;
-    font-size: 30px;
-    font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
 }
-.main-content h3{
-    color:#fff;
-    font-size: 40px;
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:#ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s all linear;
+    cursor: pointer;
 }
-.main-content p{
-    color:#e5d8d8;
-    font-size: 15px;
-    font-weight: 400;
-  font-family: 'Roboto', sans-serif
-}
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-    border: 5px solid #021318;
-    box-shadow: -1px 3px 5px 12px #ced2d3;
-
-}
-.main-content
-.col-lg-8 {
-    margin: 120px 0px;
-}
-button.btn.btn-outline-primary.px-5 {
-    margin: 0px 20px;
+nav ul li a:hover::after{
+    width: 100%;
 }
