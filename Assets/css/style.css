@@ -44,9 +44,7 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
-.header-content {
-    background: #ff004f;
-}
+
 .header-content h2{
     color: #fff;
     font-size: 30px;
