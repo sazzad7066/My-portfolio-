@@ -13,6 +13,20 @@
     display: block;
     padding: 0px 40px;
 }
-a:hover{
-    text-decoration: underline;
+/* portfolio-section start */
+#slider{
+    background: #ddd;
 }
+.slider-title h4{
+    color:#712EF6;
+}
+.hr-style{
+    border: 5px dashed #0075B7;
+    border-bottom: none;
+}
+
+.carousel-item{
+    padding: 5% 15%;
+    text-align: center;
+}
+/* portfolio-section end */
