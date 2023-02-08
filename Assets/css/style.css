@@ -23,14 +23,18 @@ header .nav-link{
 }
 */
 /* portfolio-section start */
-.slider-title h4{
-    color:#712EF6;
+header{
+    background: #AC906A;
 }
+
 .hr-style{
     border: 5px dashed #0075B7;
     border-bottom: none;
 }
-
+/*.carousel-control-next-icon:hover{
+    border-radius: 50%;
+    background: #0075B7;
+}*/
 .carousel-item{
     padding: 5% 15%;
     text-align: center;
@@ -39,10 +43,7 @@ header .nav-link{
 .product-section {
     margin: 60px 0px;
 }
-.card-body{
-    border: 2px solid #F7F7F7;
-  
-}
 
+*/
 /* main-section-end */
 /* portfolio-section end */
