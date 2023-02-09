@@ -7,6 +7,7 @@
 }
 body{
     background: #ddd;
+  
 }
 /* common css end */
 header .nav-link{
@@ -35,6 +36,17 @@ header{
     border-radius: 50%;
     background: #0075B7;
 }*/
+.carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    opacity: 1;
+}
+.carousel-indicators .active{
+    background: green;
+}
 .carousel-item{
     padding: 5% 15%;
     text-align: center;
@@ -43,7 +55,55 @@ header{
 .product-section {
     margin: 60px 0px;
 }
-
+/* even-section  start*/
+.even-oder-section {
+    background: #353849;
+    height: 570px;
+    width: 100%;
+    border: 5px solid #353849;
+    display: block;
+    padding: 2px 0px;
+  }
+.even-oder-section .oder-title h4{
+    font-size: 30px;
+    color: #ddd;
+    font-family: Rubik;
+    font-weight: 500;
+     line-height: 2;
+}
+.carousel-item img{
+    display: block;
+    width: 500px;
+    height: auto;
+}
+.oder-title {
+    margin: 120px 0px;
+    padding: 9px;
+  }
+.btn.btn-outline-secondary.text-uppercase{
+    background: transparent;
+    color: #fff;
+    padding: 10px 40px;
+}
+.btn.btn-outline-secondary.text-uppercase:hover{
+    background: #D57112;
+    color: #ddd;
+}
+.btn.btn-outline-success.text-uppercase{
+    background: #D57112;
+    color: #ddd;
+    padding: 10px 10px;
+    margin: 0px 2px;
+}
+.btn.btn-outline-success.text-uppercase:hover{
+    background: #ddd;
+    color: #0075B7;
+   
+}
+.text-light {
+    padding: 10px;
+}
+/* even-section  end*/
 */
 /* main-section-end */
 /* portfolio-section end */
