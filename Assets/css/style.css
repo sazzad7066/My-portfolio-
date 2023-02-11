@@ -122,13 +122,13 @@ header{
 /* portfolio-section end */
 
 
-  .product-thumb {
+.product-thumb {
     overflow: hidden;
   }
   .product-thumb:hover img {
     transform: scale(1.3);
-  }
-  .product-thumb img {
+}
+.product-thumb img {
     transform: scale(1);
     transition: all linear.3s;
   }
