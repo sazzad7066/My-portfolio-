@@ -68,9 +68,9 @@ header .nav-link:hover::before,header .nav-link:hover::after{
 .portfolio-title h3::after {
     position: absolute;
     content: "";
-    height: 2px;
-    width: 11%;
-    background: red;
+    height: 3px;
+    width: 20%;
+    background: green;
     left: 50%;
     bottom: -10px;
     transform: translateX(-50%);
@@ -79,7 +79,6 @@ header .nav-link:hover::before,header .nav-link:hover::after{
   .slider-section {
     background: gray;
     margin: 40px 0px;
-    height: 500px;
   }
   .carousel-item{
     padding: 5% 24%;
@@ -101,17 +100,49 @@ header .nav-link:hover::before,header .nav-link:hover::after{
 
 
 /* main-section-start */
-.product-section {
-    margin: 60px 0px;
-}
+
 /* even-section  start*/
+/* product-section start */
+.product-banner{
+    margin: 30px 0px;
+}
+.product-title h4{
+    color: #0075B7;
+    margin: 5px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+   
+}
+.product-title h4::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 8%;
+    background: green;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+  }
+  .product-img {
+    overflow: hidden;
+  }
+  .product-img img {
+    transform: scale(1);
+    transition:  all linear.3s;
+  }
+  .product-img:hover img {
+    transform: scale(1.3);
+}
+/* product-section end */
+
+/* even-oder-section-start */
 .even-oder-section {
     background: #353849;
-    height: 570px;
     width: 100%;
     border: 5px solid #353849;
-    display: block;
     padding: 2px 0px;
+    display: block;
     overflow: hidden;
   }
 .even-oder-section .oder-title h4{
@@ -166,6 +197,7 @@ header .nav-link:hover::before,header .nav-link:hover::after{
 .text-light {
     padding: 10px;
 }
+/* even-oder-section-end */
 /* even-section  end*/
 /* main-section-end */
 /* portfolio-section end */
@@ -174,10 +206,10 @@ header .nav-link:hover::before,header .nav-link:hover::after{
 .product-thumb {
     overflow: hidden;
   }
-  .product-thumb:hover img {
-    transform: scale(1.3);
-}
-.product-thumb img {
+  .product-thumb img {
     transform: scale(1);
     transition: all linear.3s;
   }
+  .product-thumb:hover img {
+    transform: scale(1.3);
+}
