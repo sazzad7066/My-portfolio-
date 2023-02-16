@@ -145,6 +145,11 @@ header .nav-link:hover::before,header .nav-link:hover::after{
     display: block;
     overflow: hidden;
   }
+  /* even-crousel start */
+  .even-crousel {
+    margin: 50px 0px;
+  }
+  /* even-crousel end */
 .even-oder-section .oder-title h4{
     font-size: 30px;
     color: #ddd;
@@ -165,15 +170,10 @@ header .nav-link:hover::before,header .nav-link:hover::after{
     transform: translateX(-50%);
     bottom: -10px;
  }
-.carousel-item img{
-    display: block;
-    width: 500px;
-    height: auto;
+ .oder-title {
+  margin: 120px 0px;
+  padding: 9px;
 }
-.oder-title {
-    margin: 120px 0px;
-    padding: 9px;
-  }
 .btn.btn-outline-secondary.text-uppercase{
     background: transparent;
     color: #fff;
@@ -195,7 +195,7 @@ header .nav-link:hover::before,header .nav-link:hover::after{
    
 }
 .text-light {
-    padding: 10px;
+  padding: 10px;
 }
 /* even-oder-section-end */
 /* even-section  end*/
