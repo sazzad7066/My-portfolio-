@@ -134,6 +134,7 @@ header .nav-link:hover::before,header .nav-link:hover::after{
   .product-img:hover img {
     transform: scale(1.3);
 }
+
 /* product-section end */
 
 /* even-oder-section-start */
@@ -157,6 +158,7 @@ header .nav-link:hover::before,header .nav-link:hover::after{
     font-weight: 500;
      line-height: 2;
 }
+/* new-arrivals-start */
 .arrivals-title h4 {
     position: relative;
   }
@@ -170,10 +172,22 @@ header .nav-link:hover::before,header .nav-link:hover::after{
     transform: translateX(-50%);
     bottom: -10px;
  }
+.product-thumb {
+  overflow: hidden;
+}
+.product-thumb img {
+  transform: scale(1);
+  transition: all linear.3s;
+}
+.product-thumb:hover img {
+  transform: scale(1.3);
+}
+
  .oder-title {
   margin: 120px 0px;
   padding: 9px;
 }
+/* new-arrivals-end */
 .btn.btn-outline-secondary.text-uppercase{
     background: transparent;
     color: #fff;
@@ -202,14 +216,3 @@ header .nav-link:hover::before,header .nav-link:hover::after{
 /* main-section-end */
 /* portfolio-section end */
 
-
-.product-thumb {
-    overflow: hidden;
-  }
-  .product-thumb img {
-    transform: scale(1);
-    transition: all linear.3s;
-  }
-  .product-thumb:hover img {
-    transform: scale(1.3);
-}
