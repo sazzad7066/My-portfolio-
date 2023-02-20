@@ -215,4 +215,16 @@ header .nav-link:hover::before,header .nav-link:hover::after{
 /* even-section  end*/
 /* main-section-end */
 /* portfolio-section end */
-
+.popular-title h4 {
+  position: relative;
+}
+.popular-title h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100px;
+  background: #00a0ff;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+}
