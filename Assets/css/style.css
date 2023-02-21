@@ -228,3 +228,11 @@ header .nav-link:hover::before,header .nav-link:hover::after{
   transform: translateX(-50%);
   bottom: -10px;
 }
+/* footer-section-start */
+footer{
+  background: #1F3240;
+}
+footer-contect i{
+  color: #fff;
+}
+/* footer-section-end */
