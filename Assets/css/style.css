@@ -241,14 +241,14 @@ footer-contect i{
   color: #fff;
 }
 
-.contect-section h4{
+.footer-contect h4{
   font-size: 20px;
   color: #fff;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   position: relative;
 }
-.contect-section h4::after{
+.footer-contect h4::after{
   position: absolute;
   content: '';
   height: 3px;
