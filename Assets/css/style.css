@@ -277,5 +277,22 @@ footer-contect i{
 .navbar .nav-link:hover{
   color: #ff0000;
   background: #fff;
+  padding: 5px 100px;
 }
+/* form-section start */
+.form-section {
+  padding: 20px 50px;
+}
+.form-section .text{
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0px;
+}
+.form-section .form{
+ padding: 5px 50px;
+ border: 1px solid #fff;
+ border-radius: 5px;
+}
+
+/* form-section end */
 /* footer-section-end */
