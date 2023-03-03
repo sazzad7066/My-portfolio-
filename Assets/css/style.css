@@ -273,18 +273,15 @@ footer-contect i{
 .navbar .nav-item {
   padding: 10px 0px;
 }
-.navbar .nav-link{
+.navbar .footer-nav{
   color: #ddd;
   font-size: 20px;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
-  padding: 5px 16px;
-  display: block;
-  transition: .5s all linear;
+   transition: .5s all linear;
 }
-.navbar .nav-link:hover{
-  color: white;
-  background: #04AA6D;;
+.footer-nav:hover{
+  background: rgb(178, 175, 175);
 }
 /* form-section start */
 .form-section {
